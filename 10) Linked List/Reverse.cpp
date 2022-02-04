@@ -27,7 +27,6 @@ void display(node* head){
         cout<<temp->data<<"->";
         temp=temp->next;
     }
-
 }
 node* reverse(node* &head){
     node* prevptr=NULL;
