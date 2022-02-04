@@ -9,7 +9,6 @@ class node{
         data=val;
         next=NULL;
     }
-
 };
 void insertAtTail(node* &head, int val){
     node* n=new node(val);
