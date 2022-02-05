@@ -21,9 +21,8 @@ void Pattern(int n){
         cout<<"*";
     }
 }
-
 int main()
-{
+{   
     int n = 6;
     Pattern(n);  
 return 0;
