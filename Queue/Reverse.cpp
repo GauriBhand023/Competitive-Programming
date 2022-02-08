@@ -22,7 +22,6 @@ void reverseQueue(queue<int>& Queue)
 	}
 }
 
-// Driver code
 int main()
 {
 	queue<int> Queue;
@@ -36,7 +35,6 @@ int main()
 	Queue.push(80);
 	Queue.push(90);
 	Queue.push(100);
-
 	reverseQueue(Queue);
 	Print(Queue);
 }
