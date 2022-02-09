@@ -7,17 +7,12 @@ int main(){
 ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
 int t;cin>>t;
- int x;
-float y;
+int x,y;
 while(t--){
-cin>>x>>y;
-if((x%5==0 && x+0.50<=y)){
-   cout <<fixed<< y-x-0.5 << endl; 
-}
-else
-    {
-        cout <<fixed<< y << endl;
-    }
+    int sum=0;
+    cin>>x>>y;
+    sum=x+y;
+    cout<<sum<<endl; 
 }
 return 0;
 }
