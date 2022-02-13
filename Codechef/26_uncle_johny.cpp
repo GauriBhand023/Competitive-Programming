@@ -6,7 +6,7 @@ int main()
     cin >> t;
     for (int i = 0; i < t; i++)
     {
-        int n, p, g, temp, count = 0;
+        int n, p, g, temp, coun = 0;
         cin >> n;
         int arr[n];
         for (int i = 0; i < n; i++)
