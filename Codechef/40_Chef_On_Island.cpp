@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-	int t;
-	cin>>t;
-	while(t--)
+	int c;
+	cin>>c;
+	while(c--)
 	{
 	    float x,y,x1,y1,a,b;
 	    
