@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main()
-{
+int main(){
     int t;
     cin >> t;
-    while (t--)
-    {
+    while (t--){
         float h1, m1, h2, m2, t1, t2, c1, c2, dist;
         char c;
         cin >> h1 >> c >> m1;
