@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main()
-{
+int main(){
     unsigned long long t;
     cin >> t;
     for (unsigned long long i = 0; i < t; i++) {
