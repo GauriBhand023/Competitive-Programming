@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin>>t;
-    while(t--)
-    {
+    while(t--) {
         int n,i;
         int count=1;
         cin>>n;
@@ -17,7 +15,6 @@ int main() {
             }
         }
         cout<<(count)/2<<endl;
-    }
-    
+    }  
 	return 0;
 }
