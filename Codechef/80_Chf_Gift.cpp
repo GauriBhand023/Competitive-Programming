@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	int t;
     cin>>t;
@@ -8,8 +7,7 @@ int main() {
 	    int n,k;cin>>n>>k;int a[n];
 	    int cnt=0;
 	    for(int i=0;i<n;i++){cin>>a[i];
-	        if(a[i]%2==0)cnt++;}  
-	   
+	        if(a[i]%2==0)cnt++;}   
 	  if((k==0)&&(cnt<n)){
             cout<<"YES"<<endl;
         }
