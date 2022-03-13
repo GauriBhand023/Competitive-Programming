@@ -29,33 +29,26 @@ signed main(){
             if (a[i] == (x + 2) && b[i] == (y + 1)) {
                 check = 1;
             }
-            if (a[i] == (x - 1) && b[i] == (y - 2))
-            {
+            if (a[i] == (x - 1) && b[i] == (y - 2)) {
                 check = 1;
             }
-            if (a[i] == (x + 1) && b[i] == (y - 2))
-            {
+            if (a[i] == (x + 1) && b[i] == (y - 2)){
                 check = 1;
             }
-            if (a[i] == (x - 1) && b[i] == (y + 2))
-            {
+            if (a[i] == (x - 1) && b[i] == (y + 2)) {
                 check = 1;
             }
-            if (a[i] == (x + 1) && b[i] == (y + 2))
-            {
+            if (a[i] == (x + 1) && b[i] == (y + 2)){
                 check = 1;
             }
-            if (check == 1)
-            {
+            if (check == 1){
                 break;
             }
         }
-        if (check == 1)
-        {
+        if (check == 1) {
             cout << "YES" << endl;
         }
-        else
-        {
+        else {
             cout << "NO" << endl;
         }
     }
