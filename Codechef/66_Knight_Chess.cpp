@@ -17,20 +17,16 @@ signed main(){
         cin >> x >> y;
         int check = 0;
         for (int i = 0; i < n; i++) {
-            if (a[i] == (x - 2) && b[i] == (y - 1))
-            {
+            if (a[i] == (x - 2) && b[i] == (y - 1)) {
                 check = 1;
             }
-            if (a[i] == (x - 2) && b[i] == (y + 1))
-            {
+            if (a[i] == (x - 2) && b[i] == (y + 1)) {
                 check = 1;
             }
-            if (a[i] == (x + 2) && b[i] == (y - 1))
-            {
+            if (a[i] == (x + 2) && b[i] == (y - 1)) {
                 check = 1;
             }
-            if (a[i] == (x + 2) && b[i] == (y + 1))
-            {
+            if (a[i] == (x + 2) && b[i] == (y + 1)) {
                 check = 1;
             }
             if (a[i] == (x - 1) && b[i] == (y - 2))
