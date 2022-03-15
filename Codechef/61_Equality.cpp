@@ -3,14 +3,12 @@
 using namespace std;
 #define ll long long
 #define forn(i, e) for (int i = 0; i < e; i++)
-void solve()
-{
+void solve(){
     int n;
     cin >> n;
     ll arr[n];
     ll sum = 0;
-    forn(i, n)
-    {
+    forn(i, n){
         cin >> arr[i];
         sum += arr[i];
     }
@@ -20,8 +18,7 @@ void solve()
         << tot - arr[i] << ' ';
     cout << endl;
 }
-int main()
-{
+int main(){
     int t;
     cin >> t;
     while (t--)
