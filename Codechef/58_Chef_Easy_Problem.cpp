@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
 	int t=0;
 	cin>>t;
@@ -17,8 +16,7 @@ int main() {
 	        if(i>=0)
 	        count+=A[i];
 	    }
-	    cout<<count<<endl;
-	 
+	    cout<<count<<endl; 
 	}
 	return 0;
 }
