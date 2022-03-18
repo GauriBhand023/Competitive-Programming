@@ -1,11 +1,9 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	int t; 
 	cin>>t;
-    while (t--)
-    {
+    while (t--){
         int x,y,a,b,c,d;
         cin>>a>>b>>c>>d;
         y=a+c;
@@ -17,7 +15,6 @@ int main() {
             cout<<"NO"<<endl;
         }
     }
-    return 0;
-    
+    return 0;    
 }
 
