@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
  int main() {
   int t ;
   int k , a;
@@ -10,7 +9,6 @@ using namespace std;
      int arr[a];
      for( int i=0 ;i<a ; i++) {
         cin>>arr[i];
-
      }
      for( int i =0; i<a ;i++){
         if(arr[i]<k||arr[i]==k){
@@ -19,11 +17,9 @@ using namespace std;
         }
         else{
             cout<<"0";
-
         }
      }
      cout<<endl;
-
   }
   return 0;
  }
