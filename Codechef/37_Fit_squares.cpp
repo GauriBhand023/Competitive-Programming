@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int t;cin>>t;
     while(t--){
@@ -10,8 +9,7 @@ int main() {
         }
         n/=2;
         int area = n*n;
-        cout<<(area-n)/2<<endl;
-        
+        cout<<(area-n)/2<<endl;    
     }
 	return 0;
 }
