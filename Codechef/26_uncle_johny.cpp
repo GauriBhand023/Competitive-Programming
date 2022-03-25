@@ -23,10 +23,8 @@ int main(){
             }
         }
         int k = 0;
-        while (k < n)
-        {
-            if (arr[k] == g)
-            {
+        while (k < n) {
+            if (arr[k] == g) {
                 break;
             }
             k++;
