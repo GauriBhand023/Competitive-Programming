@@ -13,12 +13,9 @@ int main(){
         cin >> p;
         p--;
         g = arr[p];
-        for (int x = 0; x < n; x++)
-        {
-            for (int j = x + 1; j < n; j++)
-            {
-                if (arr[x] > arr[j])
-                {
+        for (int x = 0; x < n; x++) {
+            for (int j = x + 1; j < n; j++){
+                if (arr[x] > arr[j]){
                     temp = arr[x];
                     arr[x] = arr[j];
                     arr[j] = temp;
