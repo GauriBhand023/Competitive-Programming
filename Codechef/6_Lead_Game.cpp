@@ -6,7 +6,6 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
     int n;
     cin>>n;
     int c=0, d=0, m=0, p=0;
