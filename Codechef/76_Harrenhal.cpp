@@ -8,7 +8,6 @@ int is_pal(string s){
     else return 0;
 }
 
-
 int main(){
     int t=1;
     cin>>t;
