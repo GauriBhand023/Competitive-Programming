@@ -2,6 +2,7 @@
 using namespace std;
 
 
+
 int main(){
     unsigned long long t;
     cin >> t;
