@@ -17,7 +17,6 @@ int main()
         return 0;
     }
 
-
     int ans=0;
     int mx=-1;
     for(int i=0; i<n; i++){
