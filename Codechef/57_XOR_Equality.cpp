@@ -4,7 +4,8 @@
 #define ll long long
 #define min(a, b) ((a < b) ? a : b)
 using namespace std;
-int main(){
+int main()
+{
     const int MID = 1e9 + 7;
     int a[100005];
     a[1] = 1;
