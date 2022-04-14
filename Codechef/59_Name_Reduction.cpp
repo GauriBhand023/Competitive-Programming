@@ -16,6 +16,8 @@ void solve(string fparent, string child){
     }
     cout << "YES" << endl;
 }
+
+
 int main(){
     int t;
     cin >> t;
