@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         long long int a, b;
         cin >> a;
         if (a <= 250000)
