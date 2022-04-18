@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main() {
 	int T;
 	cin >> T;
-	while(T--) {
+	while(T--)
+	 {
 	    int N;
 	    cin >> N;
 	    int S[N],D[N];
