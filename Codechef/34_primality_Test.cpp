@@ -1,27 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool prime(){
+bool prime()
+{
     long long x;
-    cin>>x;
-    if(x==1){
+    cin >> x;
+    if (x == 1)
+    {
         return false;
-    }   
-        for (int i = 2; i <= sqrt(x);i++){
-            if (x%i  == 0){
-               return false;
-            }           
-        }   
+    }
+    for (int i = 2; i <= sqrt(x); i++)
+    {
+        if (x % i == 0)
+        {
+            return false;
+        }
+    }
     return true;
 }
-int main() {
-int t;
-cin>>t;
-while(t--){
-    if (prime()){
-        cout << "yes"<< endl;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        if (prime())
+        {
+            cout << "yes" << endl;
+        }
+        else
+            cout << "no" << endl;
     }
-    else 
-        cout << "no" << endl;
-}
-return 0;
+    return 0;
 }
