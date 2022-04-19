@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define z long long int
-
 void solve(){
     z n;
     cin>>n;
