@@ -5,7 +5,8 @@ using namespace std;
 #define ll long long
 #define forn(i, e) for (int i = 0; i < e; i++)
 
-void solve(){
+void solve()
+{
     int a;
     cin >> a;
     if (360 % a == 0)
@@ -22,7 +23,8 @@ void solve(){
         cout << 'n' << ' ';
     cout << endl;
 }
-int main(){
+int main()
+{
     int t;
     cin >> t;
     while (t--)
