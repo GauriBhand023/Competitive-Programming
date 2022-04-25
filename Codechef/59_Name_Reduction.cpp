@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 void solve(string fparent, string child)
 {
     map<char, int> m;
