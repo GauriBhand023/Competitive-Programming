@@ -3,7 +3,6 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 
-
 int main()
 {
     ios::sync_with_stdio(0);
