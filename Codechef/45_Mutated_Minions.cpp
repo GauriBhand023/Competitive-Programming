@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 #define mini_number d;
-
 int main()
 {
 	int t;
