@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 struct post
 {
     bool is_special;
