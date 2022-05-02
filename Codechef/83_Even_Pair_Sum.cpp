@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long int ll; 
 
+typedef long long int ll; 
 int main() {
 	int t;
 	cin>>t;
