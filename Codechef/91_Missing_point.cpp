@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 void solve(long long n){
     long long x=0, y=0, a=0, b=0;
     
