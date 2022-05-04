@@ -7,7 +7,6 @@ cin>>t;
 while(t--){
     int n,m,k;
     cin>>n>>m>>k;
-
     vector<int> v(n);
     int sum=0;
     int ans=0;
