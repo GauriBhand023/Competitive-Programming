@@ -4,7 +4,8 @@ using namespace std;
 int main(){
     int t,n,b;
     cin>>t;
-    while(t--){
+    while(t--)
+    {
         cin>>n>>b;
         int w,h,p,k;
         int max=0;
