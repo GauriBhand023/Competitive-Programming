@@ -4,7 +4,8 @@ typedef long long ll;
 int main(){
 ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
-int t;cin>>t;
+int t;
+cin>>t;
 while(t--){
   int n,x,y,a,b,c,d,e;
   cin>>n>>x>>y;

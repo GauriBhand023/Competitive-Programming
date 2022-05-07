@@ -26,6 +26,20 @@ while(t--){
           pw = (int)(log(temp)/log(2));
           dp[i][pw]++;
       }
+      int q;
+      cin>>q;
+      for(int i=0; i<q; i++){
+          int a,b,c;
+          cin>>a>>b>>c;
+          int d = 0;
+          int e = 32;
+          if(c!=0){
+              pw=(int)(log(c)/log(2));
+          }
+          d = dp[b][pw]-dp[a-1][pw];
+          int ans = (b-a+1)-d;
+          cout<<ans;
+      }
   }
 }
 return 0;
