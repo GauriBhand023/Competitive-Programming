@@ -14,7 +14,6 @@ if(x>0 || y>0){
   if(x==y){
       cout<<"YES"<<endl;
   }
- 
   else{
       cout<<"NO"<<endl;
   }
