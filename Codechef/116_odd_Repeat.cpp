@@ -1,6 +1,6 @@
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
-
 
 int main() {
     long int t,n,s,k,i;
