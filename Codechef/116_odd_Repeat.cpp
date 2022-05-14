@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
     long int t,n,s,k,i;
     cin>>t;
