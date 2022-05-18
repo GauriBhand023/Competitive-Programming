@@ -3,8 +3,7 @@ using namespace std;
 #define int long long
 const int M = 1e9 + 7;
 
-signed main()
-{
+signed main(){
     int t;
     cin >> t;
     set<char> special;
