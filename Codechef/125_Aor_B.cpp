@@ -2,7 +2,8 @@
 using namespace std;
 #define int long long
 
-signed main(){
+signed main()
+{
     int t;
     cin >> t;
     while (t--){
