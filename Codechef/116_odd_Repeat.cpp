@@ -12,8 +12,7 @@ int main() {
         sum=s-sum;
         k--;
         long int ans=sum/k;
-        cout<<ans<<"\n";
-       
+        cout<<ans<<endl;      
     }
 	return 0;
 }
