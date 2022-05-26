@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main(){
 	int t; 
     cin>>t;
 	while(t--)
@@ -22,6 +21,6 @@ int main()
 			if(i<mx) cout<<'(';
 			else cout<<')';
 		}
-		cout<<"\n";
+		cout<<endl;
 	}
 }
