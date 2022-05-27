@@ -6,9 +6,7 @@ int main()
     cin>>d;
     while (d--)
     {
-        /* code */
-   
-    
+         
      int x,y,z;//f
      cin>>x>>y>>z;
      
