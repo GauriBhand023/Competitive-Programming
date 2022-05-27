@@ -4,10 +4,8 @@ int main()
 {
     int d;
     cin>>d;
-    while (d--)
-    {
-         
-     int x,y,z;//f
+    while (d--) {  
+     int x,y,z;
      cin>>x>>y>>z;
      
 
