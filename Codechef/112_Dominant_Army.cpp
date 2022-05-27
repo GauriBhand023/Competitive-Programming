@@ -7,8 +7,6 @@ int main()
     while (d--) {  
      int x,y,z;
      cin>>x>>y>>z;
-     
-
      if(x>y+z || y>x+z || z>x+y){
          cout<<"YES"<<endl;
      }
@@ -16,7 +14,7 @@ int main()
          cout<<"NO"<<endl;
      }
 
-      }
+  }
      
 return 0;
 }
