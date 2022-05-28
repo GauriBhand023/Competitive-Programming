@@ -9,7 +9,8 @@ cout.tie(NULL);
 
 int t;
 cin>>t;
-while(t--){
+while(t--)
+{
   int n;
   cin>>n;
   int arr[n],m=0;
