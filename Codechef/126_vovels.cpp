@@ -3,7 +3,8 @@ using namespace std;
 #define int long long
 const int M = 1e9 + 7;
 
-signed main(){
+signed main()
+{
     int t;
     cin >> t;
     set<char> special;
@@ -11,7 +12,8 @@ signed main(){
     special.insert('g');
     special.insert('l');
     special.insert('r');
-    while (t--){
+    while (t--)
+    {
         int a;
         string c;
         cin >> a >> c;
