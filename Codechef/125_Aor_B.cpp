@@ -6,7 +6,8 @@ signed main()
 {
     int t;
     cin >> t;
-    while (t--){
+    while (t--)
+    {
         int a, b;
         cin >> a >> b;
         int d = 500 - 2 * a + 1000 - 4 * (a + b);
