@@ -8,7 +8,8 @@ bool isSafe(int** arr, int x, int y, int n){
     return false;
 }
 
-bool RatInMaze(int** arr, int x, int y, int n, int** solArr){
+bool RatInMaze(int** arr, int x, int y, int n, int** solArr)
+{
 
     if(x == n-1 && y == n-1){
         solArr[x][y] = 1;
