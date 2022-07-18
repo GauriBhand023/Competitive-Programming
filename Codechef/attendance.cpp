@@ -2,8 +2,7 @@
 using namespace std;
 typedef long long ll;
 
-int main()
-{
+int main(){
     int t;
     cin >> t;
     while (t--) {
@@ -12,8 +11,7 @@ int main()
         string s;
         cin >> s;
         int a = 0;
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             if (s[i] == '0')
                 a++;
         }
