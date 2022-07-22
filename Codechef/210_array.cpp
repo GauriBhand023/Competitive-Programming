@@ -17,7 +17,7 @@ while(t--){
     string f1(c,'1');
     cout<<f1<<endl;
   }
-  else{
+  else{2
     string f1(b,'0');
     cout<<f1<<endl;
   }
