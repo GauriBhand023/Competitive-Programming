@@ -8,21 +8,20 @@ ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
 int t;cin>>t;
 while(t--){
-  int a,b,c,d,n;
-  cin>>a>>b;
+  int x;
+  int a,b,n;
+  cin>>a>>b>>n;
   if(a%b==0){
-    cout<<-1<<endl;
+    cout<<"-1"<<endl;
   }
   else{
-    c=ceil(n/a);
-    d=b/__gcd(a,b);
-    if(c%d==0){
-        c+=1;   
-    }
-    cout<<c*a<<endl;
+  x=n;
+  if(x%a!=0){
+    x=n+a - (n%a);
   }
-
-
+  for(x; !(x%a ==0 && x%b!=0);x=x+a);
+    cout<<x<<endl;
+  } 
 }
 return 0;
 }
