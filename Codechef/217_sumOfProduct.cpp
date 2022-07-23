@@ -12,18 +12,20 @@ while(t--){
   cin>>n;
   int c=0;
   int ans=0;
-  int arr[n];
   for(int i=0; i<n; i++){
-    cin>>arr[i];
-    if(arr[i]==0){
-      c=0;
-    }
-    else{
+    int temp;
+    cin>>temp;
+    if(temp==1){
       c++;
     }
-    ans+=c;
+    else{
+      ans+=(c*(c+1)/2);
+      c=0;
+    }
   }
+  ans+=(c*(c+1)/2);
   cout<<ans<<endl;
+   
 }
 return 0;
 }
