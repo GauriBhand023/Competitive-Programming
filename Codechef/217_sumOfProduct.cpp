@@ -10,21 +10,20 @@ int t;cin>>t;
 while(t--){
   int n;
   cin>>n;
+  int c=0;
+  int ans=0;
   int arr[n];
-  int out = 0;
-  int c =0;
-  for(int i=0 ;i<n; i++){
+  for(int i=0; i<n; i++){
     cin>>arr[i];
-    if(arr[i]==1){
-        c+=1;
+    if(arr[i]==0){
+      c=0;
     }
     else{
-        out+=c*(c+1)/2;
-        c=0;
+      c++;
     }
-    out+=c*(c+1)/2;
+    ans+=c;
   }
-   cout<<out<<endl;  
+  cout<<ans<<endl;
 }
 return 0;
 }
