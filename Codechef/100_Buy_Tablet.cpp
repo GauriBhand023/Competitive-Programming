@@ -14,8 +14,6 @@ int main(){
             cin>>w>>h>>p;
             int k=w*h;
             if(b>=p){
-                
-            
                if(k>max){
                    max=k;
                }    
