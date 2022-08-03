@@ -1,19 +1,23 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 
- 
-int main(){
-ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+int main()
+{
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+  cout.tie(NULL);
 
-int t;cin>>t;
-while(t--){
-  int a,b,c,d;
-  cin>>a>>b>>c>>d;
-  int x = a-b;
-  int y = b*c;
-  int z = c<d?c:d;
-  y+=x*z;
-}
-return 0;
+  int t;
+  cin >> t;
+  while (t--)
+  {
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    int x = a - b;
+    int y = b * c;
+    int z = c < d ? c : d;
+    y += x * z;
+  }
+  return 0;
 }
