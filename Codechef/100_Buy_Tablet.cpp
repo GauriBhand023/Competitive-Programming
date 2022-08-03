@@ -17,7 +17,8 @@ int main(){
                if(k>max){
                    max=k;
                }    
-        } 
+      
+            } 
     }
     if(max==0){
             printf("no tablet\n");
