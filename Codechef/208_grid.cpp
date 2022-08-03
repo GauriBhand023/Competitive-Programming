@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         int a = 0, y = 0;
         cin >> a >> y;
         int temp1 = (a % 2 == 1) ? a - 1 : a;
