@@ -23,7 +23,8 @@ int main(){
     if(max==0){
             printf("no tablet\n");
         }
-        else{
+        else
+        {
             printf("%d\n",max);
         }
     }
