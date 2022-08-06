@@ -12,8 +12,7 @@ bool cmp(struct Item a, struct Item b)
 	return r1 > r2;
 }
 
-double fractionalKnapsack(struct Item arr[],
-						int N, int size)
+double fractionalKnapsack(struct Item arr[],int N, int size)
 {
 	sort(arr, arr + size, cmp);
 
