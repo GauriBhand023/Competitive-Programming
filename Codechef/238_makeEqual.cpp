@@ -10,14 +10,17 @@ int t;cin>>t;
 while(t--){
   int a,b;
   cin>>a>>b;
-  if(a<b){
-    if(b==a*4)
-    cout<<"YES"<<endl;
+  int m = max(a,b);
+  int n = min(a,b);
+  int flag = 0;
+  while(n<=m){
+    if(n==m){
+      cout<<"YES"<<endl;
+      flag = 1;
+    }
+    n*=2;
   }
-  else if(a==b){
-    cout<<"YES"<<endl;
-  }
-  else{
+  if(flag==0){
     cout<<"NO"<<endl;
   }
 }
