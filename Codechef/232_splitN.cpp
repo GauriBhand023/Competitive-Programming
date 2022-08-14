@@ -1,21 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 
-void sol(){
+void sol()
+{
     long long int n;
-    cin>>n;
-    cout<<__builtin_popcountll(n)-1<<endl;
-
+    cin >> n;
+    cout << __builtin_popcountll(n) - 1 << endl;
 }
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
- 
-int main(){
-ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-
-int t;cin>>t;
-while(t--){
-    sol();
-}
-return 0;
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        sol();
+    }
+    return 0;
 }
