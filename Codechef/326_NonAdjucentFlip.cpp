@@ -32,6 +32,7 @@ void lets(){
         cout << 0 << "\n";
     }
 }
+
 int main(){
     wasif();
     int T;
