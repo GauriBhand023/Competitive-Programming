@@ -10,8 +10,7 @@ int main()
 
     int t;
     cin >> t;
-    while (t--)
-    {
+    while (t--){
         int n;
         cin >> n;
         int a[n] = {0};
