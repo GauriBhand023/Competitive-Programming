@@ -7,6 +7,7 @@ An input string is valid if:
 
 class Solution{
 public:
+
     bool isValid(string s){
     int n = s.length();
     stack<char>ss;
