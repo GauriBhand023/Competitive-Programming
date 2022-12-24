@@ -10,21 +10,17 @@ int main()
 
     int t;
     cin >> t;
-    while (t--)
-    {
+    while (t--){
         ll x, y;
         cin >> x >> y;
         ll a = x * y;
-        if (x == 1 && y == 1)
-        {
+        if (x == 1 && y == 1){
             cout << "0/1" << endl;
         }
-        else if (x % 2 == 0 || y % 2 == 0)
-        {
+        else if (x % 2 == 0 || y % 2 == 0){
             cout << "1/2" << endl;
         }
-        else
-        {
+        else{
             long odd = a / 2;
             cout << odd << "/" << a << endl;
         }
