@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     ListNode* middleNode(ListNode* head) {
         ListNode* p1 = head;
         ListNode* p2 = head;
