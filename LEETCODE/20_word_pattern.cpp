@@ -1,11 +1,9 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-        
         if(pattern==s){
             if(pattern.size()==1){
-                return true;
-               
+                return true;  
             }
             return false;
         }
