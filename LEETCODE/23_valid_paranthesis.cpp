@@ -14,8 +14,7 @@ public:
                 break;
         }
         return tc;
-    }
-    
+    } 
     bool isValid(string s) {
         stack<char> st;
         for (int i = 0; i < s.size(); i++) {
