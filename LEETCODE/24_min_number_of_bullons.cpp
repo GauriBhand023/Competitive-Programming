@@ -1,6 +1,7 @@
 bool comp(vector<int> &a, vector<int> &b){
     return a[1]<b[1];
 }
+
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
