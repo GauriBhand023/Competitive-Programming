@@ -5,7 +5,6 @@ int countFreq(vector<int> arr, int n)
     int ans=0;
     unordered_map<int, int> mp;
  
-  
     for (int i = 0; i < n; i++)
         mp[arr[i]]++;
  
