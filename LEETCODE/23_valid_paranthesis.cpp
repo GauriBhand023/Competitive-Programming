@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     char transfer(char c) {
         char tc;
         switch (c) {
