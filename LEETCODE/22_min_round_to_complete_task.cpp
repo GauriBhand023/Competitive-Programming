@@ -14,8 +14,7 @@ int countFreq(vector<int> arr, int n)
           return -1;
       }
       else if (mp[arr[i]] != -1 && mp[arr[i]]%3==0)
-      {
-          
+      { 
           ans+=(mp[arr[i]])/3;
           mp[arr[i]] = -1;
       }
