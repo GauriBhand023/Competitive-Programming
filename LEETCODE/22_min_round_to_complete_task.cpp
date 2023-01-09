@@ -10,8 +10,7 @@ int countFreq(vector<int> arr, int n)
  
     for (int i = 0; i < n; i++) {
       if (mp[arr[i]] != -1 && mp[arr[i]]==1)
-      {
-          
+      { 
           return -1;
       }
       else if (mp[arr[i]] != -1 && mp[arr[i]]%3==0)
